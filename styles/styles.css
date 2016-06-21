@@ -1,0 +1,19 @@
+.btn{
+	padding: 20px;
+	background-color: green;
+}
+
+.btn-danger {
+	background-color: red;
+}
+
+.container {
+	background-color: blue;
+	height:100%;
+	position: relative;
+	color: white;
+}
+
+.container img{
+	width: 100%;
+}
