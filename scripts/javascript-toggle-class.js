@@ -1,13 +1,9 @@
+var div = document.querySelectorAll('div.div-default');
 
-var div = document.querySelector('div');
-var detectClass = div.classList.contains('btn');
-var btn = div;
-
-function toggleClass(){
-	this.classList.toggle('btn-danger');
+for(var x = 0; x < div.length; x++){
+	div[1].addEventListener('click', toggleClass, false);
 }
 
-btn.onclick = toggleClass;
-
-/*btn.onmouseover = toggleClass;
-btn.onmouseleave = toggleClass;*/
+function toggleClass(e){
+	e.currentTarget.classList.toggle('div-danger');
+}
