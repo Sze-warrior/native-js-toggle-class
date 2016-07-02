@@ -1,9 +1,9 @@
-.btn{
+.div-default{
 	padding: 20px;
 	background-color: green;
 }
 
-.btn-danger {
+.div-danger {
 	background-color: red;
 }
 
