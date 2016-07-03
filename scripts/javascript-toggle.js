@@ -2,8 +2,12 @@ var divs = document.querySelectorAll('div.div-default'); //queryslectorall lists
 
 for(var x = 0; x < divs.length; x++) {
 	divs[x].addEventListener('click', toggleClassDanger, false);
-} //the for loop will run through the dom tree for all the divs with the class btn.
+  //the for loop will run through the dom tree for all the divs with the class btn.
   //False will say to not stop at the first class it finds. It will go all the way to the bottom of the DOM first. Then once a click event is fired, go up the tree to the one element that was clicked 
+
+  //To do a mouseover or mouseleave, just switch 'click' to one of the two.
+
+}
 
 function toggleClassDanger(e){
 	e.currentTarget.classList.toggle('div-danger'); //This will toggle the div-danger class
